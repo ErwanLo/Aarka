@@ -1,0 +1,219 @@
+body {
+    margin:0;
+    background: #846C5B;
+}
+#Fond {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 790px;
+}
+#Logo {
+    position: relative;
+    float: right;
+    float: top;
+    height: 46px;
+    width: auto;
+}
+#Logo2 {
+    position: absolute;
+    top: 280px;
+    height: 20%;
+    left: 20%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+#d:hover .menu{
+    display: block;
+}
+.menu {
+    display: none;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #58D68D;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 400%;
+    font-family: 'Noto Serif', serif;
+    margin: 200px;
+    font-weight: bold;
+}
+h2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    font-family: 'PT Sans', sans-serif;
+}
+#informations {
+    position: relative;
+    text-align: center;
+    margin-top: 300px;
+    padding: 50px;
+}
+#informations span {
+    font-family: 'Noto Serif', serif;
+    font-size: 250%;
+    color: #443742;
+}
+#informations h3 {
+    font-family: 'Noto Serif', serif;
+    text-decoration: underline;
+    text-align: left;
+    color: #443742;
+}
+#informations p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 120%;
+    color: #443742;
+    text-align: left;
+}
+#informations .plante {
+    width: 150px;
+    height: 150px;
+    float: right;
+    transform: rotate(45deg);
+}
+#informations p .livre {
+    width: 30px;
+    height: 30px;
+}
+#informations p .main {
+    width: 30px;
+    height: 30px;
+}
+#informations p .ampoule {
+    width: 30px;
+    height: 30px;
+}
+#fond2 .fond2 {
+    width: 100%;
+    height: 100%;
+ }
+#banderole {
+    padding: 2px;
+    background-color: #003D0C;
+}
+h4 {
+    color: #E0E0E0;
+    text-align: center;
+}
+#banderole2 {
+    padding: 2px;
+    background-color: #003D0C;
+}
+#banderole3 {
+    padding: 2px;
+    background-color: #003D0C;
+}
+#banderole4 {
+    padding: 2px;
+    background-color: #003D0C;
+}
+#exemple {
+    position: absolute;
+    top: 1700px;
+    height: 500px;
+    left: 0px;
+    opacity: 0.5;
+}
+a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #E0E0E0;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #ff0000;
+}
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+    color: #fff;
+}
+.wrapper .button a{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) a{
+    color: #4267B2;
+    text-decoration: none;
+}
+.wrapper .button:nth-child(2) a{
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.wrapper .button:nth-child(3) a{
+    color: #E1306C;
+    text-decoration: none;
+}
+.wrapper .button:nth-child(4) a{
+    color: #ff0000;
+    text-decoration: none;
+}
